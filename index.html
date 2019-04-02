@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link REL=StyleSheet href="Estilos/global.css" TYPE="text/css">
-<title>OVI Gerencia de proyectos informáticos</title>
-<body>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link REL=StyleSheet href="Estilos/global.css" TYPE="text/css">
+	<title>OVI Gerencia de proyectos informáticos</title>
+	<body>
 		<header>
-				<img class="imgLogo" src="img/logoUnad.png" alt="Universidad Abierta y a Distancia">
-				<div class="divHeader">
-					<h1>
-							Gerencia de Proyectos Informáticos
-					</h1>		
-				</div>		
+			<img class="imgLogo" src="imagenes/logoUnad.png" alt="Universidad Abierta y a Distancia">
+			<div class="divHeader">
+				<h1>
+					Gerencia de Proyectos Informáticos
+				</h1>		
+			</div>		
 		</header>
-		<nav>
+		<nav class="menu-header">
 			<ul class="menu">
-				<div class="menu-header">
-				<li><a class="menu" href="autores.html">Autores</a></li>  
-				<li><a class="menu" target="contenido-iframe">Actividades</a></li> 
-				<li><a class="menu" target="contenido-iframe">Multimedia</a></li>
-				<li><a class="menu" href="content/Actividades.html" target="contenido-iframe">Lecturas</a></li>
-				<li><a class="menu" href="index.html">Inicio</a></li>
-			</div>   	
+				<li><a href="index.html">Inicio</a></li>   	
+				<li><a href="content/Actividades.html">Lecturas</a></li> 
+				<li><a href="">Multimedia</a></li>
+				<li><a href="">Actividades</a>
+					<ul class="submenu">
+						<li><a href="actividades/actividades1.html">Crucigramas</a>
+						<li><a href="actividades/actividades2.html">Cuestionarios</a>
+						<li><a href="actividades/actividades3.html">Aleatorias</a>
+					</ul>
+				</li> 
+				<li><a href="autores.html">Autores</a></li> 
 			</ul>
-    </nav>
-<main id="contenedorCentral">
-                <section class="content">
-        <div class="slider">
-                <ul>
-                        <li>
-<img class="imgSlider" src="img/GerenciaProyectos.PNG" alt="">
-</li>
-                        <li>
-<img class="imgSlider" src="img/ObjetivosProyecto.PNG" alt="">
-</li>
-                         <li>
-<img class="imgSlider" src="img/PrincipiosProyecto.PNG" alt="">
-</li>
-                </ul>
-        </div>
-        </section>
-	</main>
+    	</nav>
+		<section id="contenedor">
+            <section class="slider">
+        		<ul>
+                	<li>
+						<img class="imgSlider" src="imagenes/GerenciaProyectos.PNG" alt="">
+					</li>
+                    <li>
+						<img class="imgSlider" src="imagenes/ObjetivosProyecto.PNG" alt="">
+					</li>
+                    <li>
+						<img class="imgSlider" src="imagenes/PrincipiosProyecto.PNG" alt="">
+					</li>
+				</ul>
+			</section>
+			<aside>
+				<a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</aside>
+		</section>
         <footer>Diseño de sitios Web - 301122
-                        <section class="visit"> 
-                                        Contador de visitas
-                        </section>
-                </footer>
-</body>
+        	<section class="visit"> 
+            	Contador de visitas
+            </section>
+        </footer>
+	</body>
 </html>
