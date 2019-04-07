@@ -245,7 +245,7 @@ img.imgSlider{
 	padding: 20px 30px;
 	box-sizing: border-box;
 	width: 80%;
-	background: #A54686;
+	background: #50B748;
 	margin-top:-10%;
 	margin-left:8%;
 	/*stacking fieldsets above each other*/
@@ -264,7 +264,7 @@ img.imgSlider{
 	box-sizing: border-box;
 	color:#f1f1f1;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background: #A54686;
+	background: #50B748;
 }
 
 #msform2 {
@@ -280,7 +280,7 @@ img.imgSlider{
 	padding: 20px 30px;
 	box-sizing: border-box;
 	width: 80%;
-	background: #50B748;
+	background: #A54686;
 	margin-top:-125.1%;
 	margin-left: 97.5%;
 	/*stacking fieldsets above each other*/
@@ -299,7 +299,7 @@ img.imgSlider{
 	box-sizing: border-box;
 	color:#f1f1f1;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background: #50B748;
+	background: #A54686;
 }
 
 #msform3 {
@@ -316,7 +316,7 @@ img.imgSlider{
 	box-sizing: border-box;
 	width: 80%;
 	background: #F47920;
-	margin-top:-125.2%;
+	margin-top:-146.3%;
 	margin-left: 187%;
 	/*stacking fieldsets above each other*/
 }
